@@ -4,7 +4,7 @@
 num = int(input("choose a number: "))
 check = int(input("choose another to divide your first number with: "))
 
-remainder = str (num % check)
+remainder = str (num % check) # had to turn to string in order to concatinate at end
 
 if num % check == 0:
   print ("the second number you have chosen goes evenly into the first ")
